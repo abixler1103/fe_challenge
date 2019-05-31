@@ -1,0 +1,148 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.location {
+  border-bottom: solid #959495 1px;
+  width: 420px;
+  height: 100%;
+  display: inline-block;
+  }
+
+.last {
+    border-bottom: none;
+  }
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+.clock-bar {
+  background-color: #dfdedf;
+  width: 420px;
+  border: none;
+}
+
+.arrow-left {
+  width: 50px;
+  float: left;
+}
+
+nav {
+  margin: 0;
+  padding: 15px 0 15px 15px;
+  width: 420px;
+  background-color: #DFDEDF;
+  display: inline-block;
+  position: fixed;
+}
+
+
+.nav-title, .edit, .fa-chevron-left {
+  color: blue !important;
+}
+
+.nav-title {
+  font-size: 20px;
+  float: left;
+  padding-left: 110px;
+}
+
+.edit {
+  font-size: 16px;
+  float: right;
+  padding-right: 16px;
+}
+
+section.restaurant-list {
+  background-color: #DFDEDF;
+  width: 100%;
+}
+
+.content {
+  font-size: 16px;
+  float: left;
+  padding: 25px 0px 25px 16px; 
+  width: 155px;
+}
+
+.time {
+  font-size: 16px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 25px;
+  width: 125px;
+}
+
+.minutes {
+  font-size: 16px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 27px;
+}
+
+.arrow {
+  float: right;
+  padding: 25px 16px 25px 0px;
+}
+
+h1 {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+h3 {
+  font-size: 14px;
+}
+.location:hover {
+  background-color: #B4B2B4;
+}
+
+.quick-view {
+  background-color: #dfdedf;
+  height: 200px;
+  padding-top: 75px;
+}
+
+.stop {
+  text-align: center;
+  font-size: 18px;
+}
+.wrapper {
+  width: 420px;
+  height: 100px;
+  display: inline-block;
+  padding-top: 20px;
+  border-bottom: solid #959495 1px;
+}
+
+.next {
+float: left;
+padding-left: 22%;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.wrapper h1 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.wrapper h3 {
+  font-size: 16px;
+}
+
+.timing {
+  float: left;
+  padding-left: 95px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tab-bar {
+  width: 420px;
+}
