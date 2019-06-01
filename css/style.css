@@ -7,7 +7,7 @@ body {
   font-family: sans-serif;
   font-size: 10px;
 }
-.location {
+.info {
   border-bottom: solid #959495 1px;
   width: 420px;
   height: 100%;
@@ -26,11 +26,16 @@ body {
   background-color: #dfdedf;
   width: 420px;
   border: none;
+  height: 24px;
 }
 
 .arrow-left {
   width: 50px;
   float: left;
+}
+
+.nav-wrap {
+  position: fixed;
 }
 
 nav {
@@ -39,7 +44,6 @@ nav {
   width: 420px;
   background-color: #DFDEDF;
   display: inline-block;
-  position: fixed;
 }
 
 
@@ -59,12 +63,12 @@ nav {
   padding-right: 16px;
 }
 
-section.restaurant-list {
+section.bus-list {
   background-color: #DFDEDF;
   width: 100%;
 }
 
-.content {
+.bus {
   font-size: 16px;
   float: left;
   padding: 25px 0px 25px 16px; 
@@ -98,7 +102,7 @@ h1 {
 h3 {
   font-size: 14px;
 }
-.location:hover {
+.info:hover {
   background-color: #B4B2B4;
 }
 
@@ -111,6 +115,7 @@ h3 {
 .stop {
   text-align: center;
   font-size: 18px;
+  padding-top: 10px;
 }
 .wrapper {
   width: 420px;
