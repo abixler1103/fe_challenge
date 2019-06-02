@@ -4,8 +4,7 @@
 
 body {
   background-color: #333;
-  font-family: sans-serif;
-  font-size: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .info {
   border-bottom: solid #959495 1px;
@@ -23,7 +22,7 @@ body {
   width: 420px;
 }
 .clock-bar {
-  background-color: #dfdedf;
+  background-color: #F8F8F8;
   width: 420px;
   border: none;
   height: 24px;
@@ -36,19 +35,20 @@ body {
 
 .nav-wrap {
   position: fixed;
+ background-color: #F8F8F8;
 }
 
 nav {
   margin: 0;
   padding: 15px 0 15px 15px;
   width: 420px;
-  background-color: #DFDEDF;
+  background-color: #F8F8F8;
   display: inline-block;
 }
 
 
-.nav-title, .edit, .fa-chevron-left {
-  color: blue !important;
+.edit, .fa-chevron-left {
+  color: #007AFF !important;
 }
 
 .nav-title {
@@ -64,19 +64,18 @@ nav {
 }
 
 section.bus-list {
-  background-color: #DFDEDF;
+  background-color: #F8F8F8;
   width: 100%;
+  padding-top: 10px;
 }
 
 .bus {
-  font-size: 16px;
   float: left;
   padding: 25px 0px 25px 16px; 
   width: 155px;
 }
 
 .time {
-  font-size: 16px;
   float: left;
   padding-left: 10px;
   padding-top: 25px;
@@ -84,15 +83,18 @@ section.bus-list {
 }
 
 .minutes {
-  font-size: 16px;
   float: left;
   padding-left: 10px;
   padding-top: 27px;
+  color: #007AFF;
 }
 
 .arrow {
   float: right;
   padding: 25px 16px 25px 0px;
+}
+.fa-2x {
+  font-size: 12px !important;
 }
 
 h1 {
@@ -100,14 +102,14 @@ h1 {
   padding-bottom: 5px;
 }
 h3 {
-  font-size: 14px;
+  font-size: 12px;
 }
 .info:hover {
   background-color: #B4B2B4;
 }
 
 .quick-view {
-  background-color: #dfdedf;
+  background-color: #F8F8F8;
   height: 200px;
   padding-top: 75px;
 }
@@ -130,22 +132,25 @@ float: left;
 padding-left: 22%;
 padding-top: 10px;
 padding-bottom: 10px;
+text-align: center;
 }
 
-.wrapper h1 {
-  font-size: 16px;
-  padding-bottom: 10px;
-}
-
-.wrapper h3 {
-  font-size: 16px;
+.next h1 {
+  font-size: 22px;
+  padding: 5px 0 5px 0;
 }
 
 .timing {
   float: left;
-  padding-left: 95px;
+  padding-left: 85px;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
+}
+
+.timing h1 {
+  font-size: 22px;
+  padding: 5px 0 0 0;
 }
 
 .tab-bar {
