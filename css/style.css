@@ -77,14 +77,13 @@ section.bus-list {
 
 .time {
   float: left;
-  padding-left: 10px;
+  padding-left: 2px;
   padding-top: 25px;
   width: 125px;
 }
 
 .minutes {
   float: left;
-  padding-left: 10px;
   padding-top: 27px;
   color: #007AFF;
 }
@@ -98,7 +97,8 @@ section.bus-list {
 }
 
 h1 {
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 500;
   padding-bottom: 5px;
 }
 h3 {
@@ -129,15 +129,16 @@ h3 {
 
 .next {
 float: left;
-padding-left: 22%;
+padding-left: 15%;
 padding-top: 10px;
 padding-bottom: 10px;
 text-align: center;
 }
 
 .next h1 {
-  font-size: 22px;
+  font-size: 1.8rem;
   padding: 5px 0 5px 0;
+  font-weight: 700;
 }
 
 .timing {
@@ -149,7 +150,8 @@ text-align: center;
 }
 
 .timing h1 {
-  font-size: 22px;
+  font-size: 1.8rem;
+  font-weight: 700;
   padding: 5px 0 0 0;
 }
 
